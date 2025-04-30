@@ -1,4 +1,5 @@
-import { sync } from "glob";
+import globPkg from "glob";
+const { sync } = globPkg;
 import { defineConfig } from 'vite';
 
 // const __dirname = dirname(fileURLToPath(import.meta.url))
